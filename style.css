@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #A44DFF;
+    background-image: linear-gradient(to right, #002233, #00ddff2c, black, #5E48C8);
     margin: 0;
     padding: 20px;
 }
@@ -94,4 +94,5 @@ footer {
     font-style: italic;
     text-align: center;
     font-weight: bold;
+
 }
