@@ -14,7 +14,9 @@ function gerarResumo() {
 
     const resumo = `
     CNPJ - ${cnpj} 
+    
     Razão Social - ${razaoSocial} 
+    
     Falei com ${nome}, ${cargo}, no telefone ${telefone} e e-mail ${email}. 
     A empresa atua no ramo de ${segmento}. 
     São ${colaboradores} colaboradores e a estimativa de faturamento anual fica em torno de ${faturamento}. 
@@ -40,4 +42,5 @@ function limparFormulario() {
 
     document.getElementById("resultado").innerHTML = '';
     document.getElementById("razao-social").focus();
+
 }
