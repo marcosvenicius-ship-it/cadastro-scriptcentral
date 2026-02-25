@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-image: linear-gradient(to right, #002233, #00ddff2c, black, #5E48C8);
+    background-image: linear-gradient(to right, #002233, #00ddff2c, #000000, #5E48C8);
     margin: 0;
     padding: 20px;
 }
@@ -96,3 +96,4 @@ footer {
     font-weight: bold;
 
 }
+
