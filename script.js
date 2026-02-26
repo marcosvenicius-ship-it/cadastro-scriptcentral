@@ -17,11 +17,11 @@ function gerarResumo() {
     
     Razão Social - ${razaoSocial} 
     
-    Falei com ${nome}, ${cargo}, no telefone ${telefone} e e-mail ${email}. 
-    A empresa atua no ramo de ${segmento}. 
-    São ${colaboradores} colaboradores e a estimativa de faturamento anual fica em torno de ${faturamento}. 
-    Nos acionou com interesse em um sistema para ${necessidade}. 
-    Atualmente utilizam o sistema ${sistemaAtual}.`;
+    FALEI COM ${nome}, ${cargo}, NO TELEFONE ${telefone} E E-MAIL ${email}. 
+    A EMPRESA ATUA NO RAMO DE ${segmento}. 
+    SÃO ${colaboradores} COLABORADORES E A ESTIMATIVA DE FATURAMENTO ANUAL FICA EM TORNO DE ${faturamento}. 
+    NOS ACIONOU COM INTERESSE EM UM SISTEMA PARA ${necessidade}. 
+    ATUALMENTE UTILIZAM O SISTEMA ${sistemaAtual}.`;
 
     document.getElementById("resultado").innerText = resumo.trim();
 
@@ -44,3 +44,4 @@ function limparFormulario() {
     document.getElementById("razao-social").focus();
 
 }
+
