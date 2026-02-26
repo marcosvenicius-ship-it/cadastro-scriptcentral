@@ -15,7 +15,7 @@ function gerarResumo() {
     const resumo = `
     CNPJ - ${cnpj} 
     
-    Razão Social - ${razaoSocial} 
+    RAZÃO SOCIAL - ${razaoSocial} 
     
     FALEI COM ${nome}, ${cargo}, NO TELEFONE ${telefone} E E-MAIL ${email}. 
     A EMPRESA ATUA NO RAMO DE ${segmento}. 
@@ -44,4 +44,5 @@ function limparFormulario() {
     document.getElementById("razao-social").focus();
 
 }
+
 
